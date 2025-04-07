@@ -17,7 +17,7 @@ dp = Dispatcher()
 
 async def main():
     dp.include_router(router)
-    await wikipedia.set_lang("ru")
+    wikipedia.set_lang("ru")
     await dp.start_polling(bot)
 
 
